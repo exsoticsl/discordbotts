@@ -60,4 +60,4 @@ client.on(Events.MessageCreate, async message => {
     }
 });
 
-client.login(${secrets.TOKEN});
+client.login(TOKEN);
