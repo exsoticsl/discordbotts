@@ -60,4 +60,4 @@ client.on(Events.MessageCreate, async message => {
     }
 });
 
-client.login(process.env.token);
+client.login(${secrets.TOKEN});
